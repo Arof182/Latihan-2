@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/foto">
+
+    <EditText
+        android:id="@+id/editTextNamaLengkap"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Nama Lengkap"
+        android:layout_marginTop="50pt"
+        android:background="@drawable/edit_text_border"/>
+
+    <EditText
+        android:id="@+id/editTextNIM"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="NIM"
+        android:layout_marginTop="10pt"
+        android:background="@drawable/edit_text_border"/>
+
+    <EditText
+        android:id="@+id/editTextProdi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Prodi"
+        android:layout_marginTop="10pt"
+        android:background="@drawable/edit_text_border"/>
+
+    <Button
+        android:id="@+id/buttonKirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:text="Kirim"/>
+
+</LinearLayout>
